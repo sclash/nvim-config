@@ -4,7 +4,7 @@
 - [Useful resources](#useful-resources)
 - [LSP Notes](#lsp-notes)
   - [Javascript NodeJs](#javascript-nodejs)
-  - [Rust / Tailwind etc..](#rust-tailwind-etc)
+  - [Rust / Tailwind etc..](#rust-/-tailwind-etc)
 
 ## Installation
 
@@ -27,7 +27,7 @@ The configuration is inspired by the following repository:
 
 ## LSP Notes
 
-### Javasscript NodeJS
+### Javascript NodeJS
 
 To enable code completion and autosuggestion be sure that in your default node project you have `ESLint` installed. If not CD into your node projetc and then:
 
