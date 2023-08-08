@@ -4,7 +4,7 @@
 - [Useful resources](#useful-resources)
 - [LSP Notes](#lsp-notes)
   - [Javascript NodeJs](#javascript-nodejs)
-  - [Rust / Tailwind etc..](#rust-/-tailwind-etc)
+  - [Rust / Tailwind etc..](#rust-tailwind-etc)
 
 ## Installation
 
