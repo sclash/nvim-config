@@ -24,6 +24,7 @@ The configuration is inspired by the following repository:
   - [0 to LSP : Neovim RC From Scratch](https://www.youtube.com/watch?v=w7i4amO_zaE&t=1244s)
 - [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public)
   - [Neovim setup for tailwindcss/react/typescript](https://dev.to/craftzdog/my-neovim-setup-for-react-typescript-tailwind-css-etc-58fb)
+- [vim-surround keymaps](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt)
 
 ## LSP Notes
 
