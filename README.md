@@ -41,7 +41,7 @@ or
 npm init @eslint/config
 ```
 
-### Rust / Tailiwnd etc
+### Rust / Tailwnd etc
 
 Be sure you're inside a Rus/Tailwind project.
 For Python/Docker just open a python file
