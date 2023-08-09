@@ -25,6 +25,7 @@ The configuration is inspired by the following repository:
 - [craftzdog/dotfiles-public](https://github.com/craftzdog/dotfiles-public)
   - [Neovim setup for tailwindcss/react/typescript](https://dev.to/craftzdog/my-neovim-setup-for-react-typescript-tailwind-css-etc-58fb)
 - [vim-surround keymaps](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt)
+- [numToStr/Comments keympas](https://github.com/numToStr/Comment.nvim/blob/master/doc/Comment.txt)
 
 ## LSP Notes
 
