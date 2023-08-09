@@ -66,3 +66,5 @@ NOTE: For the plugin to work you need the `exuberant ctags` package installed to
 sudo apt-get update
 sudo apt-get -y install exuberant-ctags
 ```
+
+Open the Tagbar by `<leader>T` in normal mode.
