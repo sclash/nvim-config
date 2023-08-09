@@ -35,9 +35,9 @@ RUN cd /opt/neovim && \
 	    make install
 RUN https://github.com/universal-ctags/ctags.git
 RUN cd ctags && \
-./autogen.sh \ 
-./configure \
-make \ 
+./autogen.sh && \ 
+./configure && \
+make && \ 
 make install 
 
 RUN mkdir -p ~/.config/nvim
