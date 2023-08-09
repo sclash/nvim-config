@@ -1,4 +1,4 @@
-# NeoVim custom setup
+``# NeoVim custom setup
 
 - [Installation](#installation)
 - [Useful resources](#useful-resources)
@@ -7,6 +7,7 @@
   - [Rust / Tailwind etc](#rust-/-tailwind-etc)
 - [Tagbar plugin](#tagbar-plugin)
   - [Exuberant ctags](#exuberant-ctags)
+  - [Universal ctags](#universal-ctags)
 
 ## Installation
 
@@ -68,3 +69,16 @@ sudo apt-get -y install exuberant-ctags
 ```
 
 Open the Tagbar by `<leader>T` in normal mode.
+
+### Universal Ctags
+
+- [Official Github page](https://github.com/universal-ctags/ctags)
+- [Official installation guide](https://docs.ctags.io/en/latest/autotools.html)
+
+The default implementation of Exuberant Ctags is not comprehensive, it doesn't support languages as `Rust` and `Typescript` for example.
+In this case you can install `Universal Ctags`
+To make the changes effetcitve be sure to have uninstalled the default `Exuberant Ctags` configuration by:
+
+```bash
+sudo apt-get remove exuberant-ctags
+```
