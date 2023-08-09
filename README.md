@@ -5,6 +5,8 @@
 - [LSP Notes](#lsp-notes)
   - [Javascript NodeJs](#javascript-nodejs)
   - [Rust / Tailwind etc](#rust-/-tailwind-etc)
+- [Tagbar plugin](#tagbar-plugin)
+  - [Exuberant ctags](#exuberant-ctags)
 
 ## Installation
 
@@ -47,3 +49,20 @@ npm init @eslint/config
 
 Be sure you're inside a Rus/Tailwind project.
 For Python/Docker just open a python file
+
+## Tagbar plguin
+
+uses the `'preservim/tagbar'` Nvim plugin.
+Provide a TagBar toogle to view a the code file is structured through running the `:TagbarToggle` commadnd.
+
+NOTE: For the plugin to work you need the `exuberant ctags` package installed to your `$PATH` or set in the `init.lua` file thorugh `vim.g.tagbar_ctags_bin`
+
+### Exuberant ctags
+
+- [Official exuberant ctags webiste](https://ctags.sourceforge.net/)
+- [Installation guide](https://installati.one/install-exuberant-ctags-ubuntu-20-04/)
+
+```bash
+sudo apt-get update
+sudo apt-get -y install exuberant-ctags
+```

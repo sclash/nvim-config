@@ -6,6 +6,8 @@ require('lazy').setup({
 	--  The configuration is done below. Search for lspconfig to find it below.
 	--
 	--
+	'preservim/tagbar',
+	-- 'ludovicchabant/vim-gutentags',
 	'tpope/vim-surround',
 	'nvimdev/lspsaga.nvim', -- LSP UIs
 	'onsails/lspkind-nvim',

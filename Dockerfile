@@ -18,7 +18,8 @@ RUN apt-get update && \
     git \
     python3 \
     python3-pip \
-    ripgrep
+    ripgrep \
+    exuberant-ctags
 
 
 RUN git clone https://github.com/neovim/neovim.git /opt/neovim
