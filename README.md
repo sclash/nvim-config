@@ -19,6 +19,8 @@ For the system requirements look at the `Dockerfile`
 The config won't work inside a Docker container, the system requirements for `Debian` are the same.
 For `Windows` you need to have a `C` compiler installed, e.g. `gcc`
 
+For the font Downaload one custom font type from [Nerdfonts](https://www.nerdfonts.com/font-downloads) and unpack it in `~/.local/share/fonts` close and reopen the terminal and change the font format from the preferences.
+
 ## Useful resources
 
 The configuration is inspired by the following repository:
